@@ -1,7 +1,7 @@
 ---
 title: "Second Post"
 date: 2023-01-06T11:55:09+01:00
-draft: true
+draft: false
 ---
 
 # Test code
