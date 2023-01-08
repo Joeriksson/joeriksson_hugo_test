@@ -1,4 +1,34 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'J-O Erikssons Blog'
-theme = 'ananke'
+theme = 'hugo-theme-stack'
+
+toggle = true
+
+[[social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/joeriksson"
+
+
+
+[params]
+mainSections = ["posts"]
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+avatar = "images/logo.jpg"
+
+  [params.sidebar]
+  # emoji = "🍥"
+  subtitle = "Passionate Python Developer"
+
+    [sidebar.avatar]
+    enabled = true
+    local = true
+    src = "images/logo.jpg"
+
+  [params.article]
+    toc = true
+
+  [params.footer]
+  since = 2020.0
