@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://prismatic-cuchufli-d28d8c.netlify.app'
 languageCode = 'en-us'
 title = 'J-O Erikssons Blog'
 theme = 'hugo-theme-stack'
